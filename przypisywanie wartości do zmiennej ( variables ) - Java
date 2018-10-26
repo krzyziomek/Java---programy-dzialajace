@@ -1,0 +1,27 @@
+public class test_6 {
+    public static void main(String[] args) {
+
+        int x = 1;  // od tej pory x wynosi 1 ( dopisuję int by kod niżej zaczął działać w wyświetleniu )
+
+
+        x += 5; // x = x + 5;    od tej pory do starego x'a dodaje się wartość 5
+        System.out.println(x); // wyświela nową wartość x czyli 1+5 = 6 wyświetli : 6
+
+        x -= 5; // x = x - 5; // 6 - 5 = 1
+        System.out.println(x); // wynik //wynosi : 1
+
+        x *= 5; // x = x * 5;
+        System.out.println(x);
+
+        x /= 5; // x = x / 5;
+        System.out.println(x);
+
+
+        x %= 5; // x = x % 5; //  wyświetla resztę z dzielenia np: 12:2= 6 reszta z dzielenia 0 więc wyświetli 0.
+                              //  Inny przykład: 13:2=6 i reszta z dzielenia //wynosi:1 Inny przykład 404:49= 8 i //reszta z dzielenia wynosi: 12.
+        System.out.println(x);
+    }
+}
+
+// ---------------------------------------
+// zamiast test_6 w kodzie wyżej wpisać nazwę klasy coś jakby nazwę pliku
