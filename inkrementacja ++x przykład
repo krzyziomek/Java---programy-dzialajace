@@ -1,0 +1,20 @@
+public class test_7 {
+    public static void main(String[] args) {
+
+        int x = 1;  // od tej pory x wynosi //1 ( dopisuję int by kod niżej zaczął //działać w wyświetleniu )
+
+
+       
+
+
+        System.out.println(++x);
+        System.out.println(x);
+    }
+}
+
+
+// --
+// Wyświetli 2 a nastęnie znowu 2..
+
+// ---
+// pamiętać by zmienić nazwę klasy z przykład_7 na inną by zaczął przykłąd działać
