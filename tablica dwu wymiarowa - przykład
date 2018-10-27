@@ -1,0 +1,18 @@
+public class tablica_dwu_wymiarowa {
+
+    public static void main(String[] args) {
+
+
+
+        String[][] strings2 = {{"q", "w", "e-literka"}, {"a"},
+                {"element", "inny element", "element", "inny element", "element", "inny element"}};
+
+        System.out.println(strings2[0][2]);
+
+
+
+
+
+    }
+
+}
