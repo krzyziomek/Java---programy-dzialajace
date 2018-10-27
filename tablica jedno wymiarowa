@@ -16,7 +16,7 @@ public class tablica_jedno_wymiarowa {
 
 
 
- ---------------// niżej przykład drugi : -----------------------------------------
+// --------------- niżej przykład drugi : -----------------------------------------
 
             String strings[] = {"element", "inny element"};
 
