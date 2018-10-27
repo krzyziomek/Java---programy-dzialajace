@@ -1,0 +1,26 @@
+public class tablica_jedno_wymiarowa {
+
+// ------------------------ przykład pierwszy:
+    
+        public static void main(String[] args) {
+
+            int[] ints;
+            ints = new int[3];
+            ints[0] = 6; // pierwszy element;
+            ints[1] = 3; // drugi element
+            ints[2] = 765; // trzeci element
+
+            System.out.println(ints[1]);
+
+
+
+
+
+ ---------------// niżej przykład drugi : -----------------------------------------
+
+            String strings[] = {"element", "inny element"};
+
+            System.out.println(strings[1]);
+
+
+}
