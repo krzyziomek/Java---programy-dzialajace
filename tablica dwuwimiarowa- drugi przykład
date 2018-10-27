@@ -1,0 +1,19 @@
+
+
+
+
+public class drugi_przykład {
+
+    public static void main(String[] args)  {
+        int tablica[] = new int[10];
+        tablica[0] = 99;
+        tablica[1] = 12;
+        tablica[9] = 45; // to jest ostatni element!
+        
+        
+        System.out.println("Element tablicy 0: "+tablica[0]);
+        System.out.println("Element tablicy 1: "+tablica[1]);
+        System.out.println("Element tablicy 2: "+tablica[9]);
+        
+    }
+}
