@@ -2,7 +2,7 @@
 
 
 // ---------- Co robi program? : Wypisuje: "Ala ma kota" i umieszcza plik do pliku tekstowego .txt (notatnik)
-// Nazwa pliku .txt : "Zapis"
+// Nazwa pliku .txt : // "Zapis"
 
 
 
