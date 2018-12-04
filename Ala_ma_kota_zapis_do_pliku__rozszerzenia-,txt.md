@@ -1,7 +1,8 @@
 # Java---programy-dzialajace
 
 
-// ---- Co robi program? : Wypisuje: "Ala ma kota" i umieszcza plik do pliku tekstowego .txt (notatnik) Nazwa pliku .txt : "Zapis"
+// ---------- Co robi program? : Wypisuje: "Ala ma kota" i umieszcza plik do pliku tekstowego .txt (notatnik)
+// Nazwa pliku .txt : "Zapis"
 
 
 
