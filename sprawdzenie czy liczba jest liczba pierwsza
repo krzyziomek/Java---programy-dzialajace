@@ -1,0 +1,67 @@
+package metody;
+
+public class klasa_2 {
+
+        public static void main(String[] args)
+        {
+            metoda2();
+        }
+
+        private static void metoda2()
+        {
+            int d=5903;   // sprawdzenie czy liczba jest pierwsza
+            int a = 0;
+            int k=0;
+            int dlugosc_przedzialu=d;  //np,: 100. (przedzial od 0 do 7919 daje lacznie 1000 liczb),
+            int y=0;
+
+            System.out.println("Liczby pierwsze w przedziale od 0 do " + dlugosc_przedzialu + " : " ); // moge powiekrzyc zbior
+
+            for ( int i = 0; i <= dlugosc_przedzialu; i++) // wypisanie np. 1:1=1 i ta pierwsza cyfra do 100 się tu zmienia , bez 1 bo liczby naturalne wiekrze od 1, tutaj bylo 100 zamiast zmiennej,wczesniej bylo:( int i = 0; i <= 100; i++)
+            {
+                for (int j = 1; j <= dlugosc_przedzialu; j++)  // wypisanie np. 1:1=1 i ta --druga-- cyfra do 100 się tu zmienia, tutaj bylo 100 zamiast zmiennej,wczesniej bylo: ( int j=1; j<=100; j++)
+                {
+                    a = i / j;
+
+                    if (i == a * j)                 // to chyba sprawdza czy liczba calkowita
+                    {
+                        k++;
+                    }
+
+                    if (j == dlugosc_przedzialu)               // j==100 bylo. Zmienilem na zmienna : "dlugosc_przedzialu"
+                    {
+                        if (k == 2)
+                        {
+                            System.out.print(i + " "); // "i" jest liczba pierwsza
+                            if  (d==i)
+                            {
+                                y=1;
+                            }
+                        }
+                    }
+
+                    if (j == dlugosc_przedzialu)             // zerowanie k po petli gdy konczy sie petla j, tu bylo 100 zmienilem na "dlugosc_przedzialu"
+                    {
+                        k = 0;
+                    }
+
+                }
+            }
+
+            if (y==1)
+            {
+                System.out.println("    podana liczba " + d + " jest liczba pierwsza");
+            }
+            else
+            {
+                System.out.println("    podana liczba " + d + " nie jest liczba pierwsza");
+            }
+        }
+}
+
+
+
+
+
+
+
