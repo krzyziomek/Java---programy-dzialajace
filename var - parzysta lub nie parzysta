@@ -1,0 +1,10 @@
+package NazwaFolderu.NazwaFolderu2.FolderKolejny;    // zmienic nazwe sciezki package przed i po kropce
+
+public class NazwaKlasy {                        // zmienic nazwe klasy
+    public static void main(String[] args) {
+        int i = 2;
+        var even = (i % 2 == 0) ? "yes" : "no";
+        System.out.println(even);
+    }
+}
+
