@@ -10,7 +10,7 @@
  person who seats without another student in front of that
  desk also have desk.
 
-
+-----------------------------------------
 1. example:                                
  enter number of people in first group:    
  100                                       
@@ -21,7 +21,7 @@
                                            
  Total amount of desks in 3 groups: 96     
 
-
+-----------------------------------------
 
  2. example:                               
  enter number of people in first group:    
@@ -33,7 +33,7 @@
                                            
  Total amount of desks in 3 groups: 32     
 
-
+----------------------------------------
 
  3. example:                               
  enter number of people in first group:    
@@ -43,8 +43,9 @@
  enter number of people in third group:    
  20                                        
                                            
-Total amount of desks in 3 groups: 27      
+Total amount of desks in 3 groups: 27 
 
+----------------------------------------
 */
 
 
