@@ -7,10 +7,10 @@ public class tablica_dwu_wymiarowa {
         String[][] strings2 = {{"q", "w", "e-literka"}, {"a"},
                 {"element", "inny element", "element", "inny element", "element", "inny element"}};
 
-        System.out.println(strings2[0][2]);
+        System.out.println(strings2[0][2]);         // wyswietli : e-literka
 
 
-
+                        
 
 
     }
