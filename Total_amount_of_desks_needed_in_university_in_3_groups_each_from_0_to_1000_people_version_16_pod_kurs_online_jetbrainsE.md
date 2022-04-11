@@ -10,41 +10,41 @@
  person who seats without another student in front of that
  desk also have desk.
 
-|-------------------------------------------
-|1. example:                                |
-| enter number of people in first group:    |
-| 100                                       |
-| enter number of people in second group:   |
-| 50                                        |
-| enter number of people in third group:    |
-| 41                                        |
-|                                           |
-| Total amount of desks in 3 groups: 96     |
---------------------------------------------|
 
-|-------------------------------------------
-| 2. example:                               |
-| enter number of people in first group:    |
-| 20                                        |
-| enter number of people in second group:   |
-| 21                                        |
-| enter number of people in third group:    |
-| 22                                        |
-|                                           |
-| Total amount of desks in 3 groups: 32     |
---------------------------------------------|
+1. example:                                
+ enter number of people in first group:    
+ 100                                       
+ enter number of people in second group:   
+ 50                                        
+ enter number of people in third group:    
+ 41                                        
+                                           
+ Total amount of desks in 3 groups: 96     
 
-|-------------------------------------------
-| 3. example:                               |
-| enter number of people in first group:    |
-| 16                                        |
-| enter number of people in second group:   |
-| 18                                        |
-| enter number of people in third group:    |
-| 20                                        |
-|                                           |
-|Total amount of desks in 3 groups: 27      |
---------------------------------------------|
+
+
+ 2. example:                               
+ enter number of people in first group:    
+ 20                                        
+ enter number of people in second group:   
+ 21                                        
+ enter number of people in third group:    
+ 22                                        
+                                           
+ Total amount of desks in 3 groups: 32     
+
+
+
+ 3. example:                               
+ enter number of people in first group:    
+ 16                                        
+ enter number of people in second group:   
+ 18                                        
+ enter number of people in third group:    
+ 20                                        
+                                           
+Total amount of desks in 3 groups: 27      
+
 */
 
 
