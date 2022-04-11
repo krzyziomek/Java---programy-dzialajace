@@ -13,6 +13,6 @@ import java.io.PrintWriter;
         public static void main(String[] args) throws FileNotFoundException {
             PrintWriter zapis = new PrintWriter("ala.txt");
             zapis.println("Ala ma kota, a kot ma Alę");
-            zapis.close();          //ta linijka potrzebna by coś w pamięci się nie traciło miejsce więc tu użyta.
+            zapis.close();          //ta linijka potrzebna aby zwolnić zajętą pamięć.
         }
     }
